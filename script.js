@@ -16,7 +16,7 @@ async function generateHaiku() {
             body: JSON.stringify({
                 model: "gpt-3.5-turbo",
                 messages: [
-                    { role: "system", content: "You are a helpful assistant." },
+                    { role: "system", content: "You are an expert in Haiku writing. Please generate a unique Haiku each time you are prompted." },
                     { role: "user", content: prompt }
                 ],
                 max_tokens: 50,
