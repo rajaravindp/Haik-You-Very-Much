@@ -6,10 +6,10 @@ An API key from OpenAI (For AI haiku generation).
 Installation
 Clone the repository:
 
-bash
-Copy code
+<code>
 git clone https://github.com/yourusername/Haik-You-Very-Much.git
-Navigate into the project folder:
+</code>
+  Navigate into the project folder:
 
 bash
 Copy code
